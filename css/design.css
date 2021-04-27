@@ -1,0 +1,200 @@
+/* Fonts */
+
+@font-face {
+  font-family: "compactaroman";
+  src: url("../font/compactabt-webfont.woff2") format("woff2"),
+    url("../font/compactabt-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Main */
+
+html {
+  box-sizing: border-box;
+  font-family: "compactaroman";
+  background-color: #e3e3e3;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 75%;
+  margin: auto;
+}
+
+figcaption {
+  text-align: center;
+  font-size: 3vh;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50%;
+  height: auto;
+  background-color: #e3e3e3;
+}
+
+.description {
+  color: black;
+  min-height: 500px;
+  padding: 50px;
+  font-size: 4vh;
+  background-color: #e3e3e3;
+  line-height: 1.5;
+}
+
+.content_right {
+  position: relative;
+  top: 40%;
+  min-height: 600px;
+  text-align: right;
+  font-size: 4vh;
+  padding-right: 75px;
+}
+
+.content_left {
+  position: relative;
+  top: 40%;
+  min-height: 1200px;
+  text-align: left;
+  font-size: 4vh;
+  padding-left: 75px;
+}
+
+.background_flak {
+  background-image: url(../img/flak.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-blend-mode: multiply;
+  background-color: #555;
+  color: white;
+  height: 1080px;
+}
+
+.background_amara {
+  background-image: url(../img/amara.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-blend-mode: multiply;
+  background-color: #555;
+  color: white;
+  height: 1080px;
+  text-align: right;
+}
+
+.background_moze {
+  background-image: url(../img/moze.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-blend-mode: multiply;
+  background-color: #555;
+  color: white;
+  height: 1080px;
+  text-align: right;
+}
+
+.background_zane {
+  background-image: url(../img/zane.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-blend-mode: multiply;
+  background-color: #555;
+  color: white;
+  height: 1080px;
+  text-align: right;
+}
+
+/* Navigation and footer */
+
+footer ul,
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-content: space-around;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  font-size: 36px;
+  background-color: #e3e3e3;
+}
+
+nav a {
+  border-bottom: black solid 1px;
+}
+
+footer a,
+nav a {
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover,
+nav a:focus {
+  text-decoration: underline;
+  background: -webkit-linear-gradient(45deg, black, gold);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+footer a.fb:hover,
+footer a.fb:focus {
+  text-decoration: underline;
+  background: -webkit-linear-gradient(#0f50dd, #ffffff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+footer a.yt:hover,
+footer a.yt:focus {
+  text-decoration: underline;
+  background: -webkit-linear-gradient(#f00, #282828);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+footer a.tw:hover,
+footer a.tw:focus {
+  text-decoration: underline;
+  background: -webkit-linear-gradient(
+    45deg,
+    #66857f,
+    #00acee,
+    #36d8ff,
+    #ffffff
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+footer a.ig:hover,
+footer a.ig:focus {
+  text-decoration: underline;
+  background: -webkit-linear-gradient(
+    45deg,
+    #405de6,
+    #5851db,
+    #833ab4,
+    #c13584,
+    #e1306c,
+    #fd1d1d
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Modal images */
