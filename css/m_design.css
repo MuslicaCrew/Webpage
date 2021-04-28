@@ -40,75 +40,25 @@ figcaption {
   background-color: #e3e3e3;
 }
 
-.description {
+.content_title {
+  text-align: center;
   color: black;
-  min-height: 500px;
-  padding: 50px;
+  padding-top: 50px;
+  font-size: 5vh;
+}
+
+.content {
+  text-align: center;
+  color: black;
+  padding-top: 50px;
+  padding-bottom: 50px;
   font-size: 4vh;
-  background-color: #e3e3e3;
-  line-height: 1.5;
+  text-decoration: underline;
 }
 
-.content_right {
-  position: relative;
-  top: 40%;
-  min-height: 600px;
-  text-align: right;
-  font-size: 4vh;
-  padding-right: 75px;
-}
-
-.content_left {
-  position: relative;
-  top: 40%;
-  min-height: 1200px;
-  text-align: left;
-  font-size: 4vh;
-  padding-left: 75px;
-}
-
-.background_flak {
-  background-image: url(../img/flak.png);
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  background-blend-mode: multiply;
-  background-color: #555;
-  color: white;
-  height: 1080px;
-}
-
-.background_amara {
-  background-image: url(../img/amara.png);
-  background-size: cover;
-  background-attachment: fixed;
-  background-blend-mode: multiply;
-  background-color: #555;
-  color: white;
-  height: 1080px;
-  text-align: right;
-}
-
-.background_moze {
-  background-image: url(../img/moze.png);
-  background-size: cover;
-  background-attachment: fixed;
-  background-blend-mode: multiply;
-  background-color: #555;
-  color: white;
-  height: 1080px;
-  text-align: right;
-}
-
-.background_zane {
-  background-image: url(../img/zane.png);
-  background-size: cover;
-  background-attachment: fixed;
-  background-blend-mode: multiply;
-  background-color: #555;
-  color: white;
-  height: 1080px;
-  text-align: right;
+.video {
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 /* Navigation and footer */

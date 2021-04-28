@@ -40,75 +40,71 @@ figcaption {
   background-color: #e3e3e3;
 }
 
-.description {
-  color: black;
-  min-height: 500px;
-  padding: 50px;
+.content {
   font-size: 4vh;
-  background-color: #e3e3e3;
-  line-height: 1.5;
 }
 
-.content_right {
-  position: relative;
-  top: 40%;
-  min-height: 600px;
-  text-align: right;
-  font-size: 4vh;
-  padding-right: 75px;
+.gridmaster {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
-.content_left {
-  position: relative;
-  top: 40%;
-  min-height: 1200px;
+.grid-container {
+  grid-template-columns: 45vw 45vw;
+  padding: 10px;
+  display: grid;
+}
+
+.dlc {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 6vh;
+  text-decoration: overline underline;
+}
+
+.grid:nth-child(4n + 1) {
+  padding: 20px;
+  font-size: 30px;
   text-align: left;
-  font-size: 4vh;
-  padding-left: 75px;
+  padding-top: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.background_flak {
-  background-image: url(../img/flak.png);
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  background-blend-mode: multiply;
-  background-color: #555;
-  color: white;
-  height: 1080px;
+.grid:nth-child(4n) {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  padding-top: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.background_amara {
-  background-image: url(../img/amara.png);
-  background-size: cover;
-  background-attachment: fixed;
-  background-blend-mode: multiply;
-  background-color: #555;
-  color: white;
-  height: 1080px;
-  text-align: right;
+.grid:nth-child(4n-2) {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  color: black;
+  padding-top: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.background_moze {
-  background-image: url(../img/moze.png);
-  background-size: cover;
-  background-attachment: fixed;
-  background-blend-mode: multiply;
-  background-color: #555;
-  color: white;
-  height: 1080px;
-  text-align: right;
-}
-
-.background_zane {
-  background-image: url(../img/zane.png);
-  background-size: cover;
-  background-attachment: fixed;
-  background-blend-mode: multiply;
-  background-color: #555;
-  color: white;
-  height: 1080px;
-  text-align: right;
+.grid:nth-child(4n + 3) {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  color: black;
+  padding-top: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Navigation and footer */
